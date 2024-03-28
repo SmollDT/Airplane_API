@@ -4,6 +4,6 @@ import { validateYear } from "../middleware/validators.js";
 
 const router = express.Router();
 
-router.get("/:city", validateYear, getAirplaneData);
+router.get("/:year", validateYear, getAirplaneData);
 
 export default router;
