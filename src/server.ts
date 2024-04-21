@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 // Our airplane route
-app.use("/api/airplane/", airplaneRoute);
+app.use("/api/airplane", airplaneRoute);
 
 // Start the express server
 app.listen(PORT, () => {
