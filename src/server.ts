@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(express.json());
 app.use(cors());
 
-// Our weather route
+// Our airplane route
 app.use("/api/airplane", airplaneRoute);
 
 // Start the express server

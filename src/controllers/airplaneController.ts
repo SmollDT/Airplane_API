@@ -30,6 +30,6 @@ export const getAirplaneData = async (req: Request, res: Response) => {
         }
         res.status(200).json(finalAirplaneData);
     } catch (error) {
-        res.status(500).send("Error in fetching weather data");
+        res.status(500).send("Error in fetching airplane data");
     }
 };
