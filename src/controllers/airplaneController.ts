@@ -23,7 +23,7 @@ export const getAirplaneData = async (req: Request, res: Response) => {
         if (year === "2000") {
             console.log(generate2000Data());
             finalAirplaneData = generate2000Data();
-        } else if (year === "dublin") {
+        } else if (year === "2001") {
             finalAirplaneData = generate2001Data();
         } else {
             res.status(404).send("City not found");
