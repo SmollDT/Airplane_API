@@ -2,6 +2,7 @@ import { faker } from "@faker-js/faker";
 
 export const generate2000Data = (): AirplaneData => {
     const generatedAirplaneData = {
+        year: 2000,
         height: faker.number.int({ min: 5, max: 15 }),
         width: faker.number.int({ min: 5, max: 10 }),
         length: faker.number.int({ min: 15, max: 30}),
@@ -13,6 +14,7 @@ export const generate2000Data = (): AirplaneData => {
 
 export const generate2001Data = (): AirplaneData => {
     const generatedAirplaneData =  {
+        year: 2001,
         height: faker.number.int({ min: 5, max: 15 }),
         width: faker.number.int({ min: 5, max: 10 }),
         length: faker.number.int({ min: 15, max: 30}),
