@@ -19,7 +19,7 @@ export const getAirplaneData = async (req, res) => {
             console.log(generate2000Data());
             finalAirplaneData = generate2000Data();
         }
-        else if (year === "dublin") {
+        else if (year === "2001") {
             finalAirplaneData = generate2001Data();
         }
         else {
@@ -28,7 +28,7 @@ export const getAirplaneData = async (req, res) => {
         res.status(200).json(finalAirplaneData);
     }
     catch (error) {
-        res.status(500).send("Error in fetching weather data");
+        res.status(500).send("Error in fetching airplane data");
     }
 };
 //# sourceMappingURL=airplaneController.js.map
