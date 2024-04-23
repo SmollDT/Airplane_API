@@ -1,4 +1,4 @@
-import { generate2000Data, generate2001Data, } from "../services/airplaneServices.js";
+import { generate2000Data, generate2001Data, generate2002Data } from "../services/airplaneServices.js";
 import { validationResult } from "express-validator";
 export const getAirplaneData = async (req, res) => {
     const errors = validationResult(req);
@@ -20,10 +20,15 @@ export const getAirplaneData = async (req, res) => {
             finalAirplaneData = generate2000Data();
         }
         else if (year === "2001") {
+            console.log(generate2001Data());
             finalAirplaneData = generate2001Data();
         }
+        else if (year === "2002") {
+            console.log(generate2002Data());
+            finalAirplaneData = generate2002Data();
+        }
         else {
-            res.status(404).send("City not found");
+            res.status(404).send("Incorrect year");
         }
         res.status(200).json(finalAirplaneData);
     }
