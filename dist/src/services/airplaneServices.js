@@ -1,4 +1,5 @@
 import { faker } from "@faker-js/faker";
+import { storeAirplaneData } from "../helpers/helpers.js";
 export const generate2000Data = () => {
     const generatedAirplaneData = {
         name: "Mikoyan Project 1.44",
@@ -7,6 +8,7 @@ export const generate2000Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2001Data = () => {
@@ -17,6 +19,7 @@ export const generate2001Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2002Data = () => {
@@ -27,6 +30,7 @@ export const generate2002Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2003Data = () => {
@@ -37,6 +41,7 @@ export const generate2003Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2004Data = () => {
@@ -47,6 +52,7 @@ export const generate2004Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2005Data = () => {
@@ -57,6 +63,7 @@ export const generate2005Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2006Data = () => {
@@ -67,6 +74,7 @@ export const generate2006Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2007Data = () => {
@@ -77,6 +85,7 @@ export const generate2007Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2008Data = () => {
@@ -87,6 +96,7 @@ export const generate2008Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2009Data = () => {
@@ -97,6 +107,7 @@ export const generate2009Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2010Data = () => {
@@ -107,6 +118,7 @@ export const generate2010Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2011Data = () => {
@@ -117,6 +129,7 @@ export const generate2011Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2012Data = () => {
@@ -127,6 +140,7 @@ export const generate2012Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2013Data = () => {
@@ -137,6 +151,7 @@ export const generate2013Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2014Data = () => {
@@ -147,6 +162,7 @@ export const generate2014Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2015Data = () => {
@@ -157,6 +173,7 @@ export const generate2015Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2016Data = () => {
@@ -167,6 +184,7 @@ export const generate2016Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2017Data = () => {
@@ -177,6 +195,7 @@ export const generate2017Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2018Data = () => {
@@ -187,6 +206,7 @@ export const generate2018Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2019Data = () => {
@@ -197,6 +217,7 @@ export const generate2019Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2020Data = () => {
@@ -207,6 +228,7 @@ export const generate2020Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2021Data = () => {
@@ -217,6 +239,7 @@ export const generate2021Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2022Data = () => {
@@ -227,6 +250,7 @@ export const generate2022Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2023Data = () => {
@@ -237,6 +261,7 @@ export const generate2023Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 export const generate2024Data = () => {
@@ -247,6 +272,7 @@ export const generate2024Data = () => {
         length: faker.number.int({ min: 15, max: 30 }),
         max_speed: faker.number.int({ min: 65, max: 75 }),
     };
+    storeAirplaneData(generatedAirplaneData).catch(console.error);
     return generatedAirplaneData;
 };
 //# sourceMappingURL=airplaneServices.js.map
